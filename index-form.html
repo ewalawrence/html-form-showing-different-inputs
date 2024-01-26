@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+        <link rel="stylesheet" href="form.css">
+        <title>Html Form</title>
+    </head>
+
+<body>
+   
+<div class="container" >
+    <form>
+        <h1>HTML FORM</h1>
+            <label for="username">Enter username:</label>
+            <input type="text" id="username" name="username" placeholder="username" required>   
+            <br><br>
+            <label for="email">Enter email:</label>
+            <input type="email" id="email" name="email" placeholder="enter email" required>   
+            <br><br> 
+            <label for="password">Enter username:</label>
+            <input type="password" id="password" name="password" placeholder="enter password required">   
+        <br><br>
+    
+        <p>Select as appropriate:</p>
+            <label for="M">Male:</label>
+            <input type="radio" id="M" value="Male" name="gender">   
+            <br>
+            <label for="F">Female:</label>
+            <input type="radio" id="F" value="Female" name="gender">   
+            <br>
+            <label for="O">Others:</label>
+            <input type="radio" id="O" value="others" name="gender">   
+        <br><br>
+    
+        <p>Select your security question from the drop down menu:</p>
+            <label for="question">Security question</label>
+            <select name="question" id="question">
+             <option value="q1">What is your mothers maiden's name?</option> 
+             <option value="q2">What's your favourite colour pant?</option>  
+             <option value="What do you do when you are very worried?"></option>
+            </select>
+    
+        <br><br>
+            <label for="sq">Answer</label>
+            <input type="text" id="sq" name="Answer" placeholder="answer" required>
+            <br><br>
+            <label for="comment">Enter comment</label> <br>
+            <textarea name="comment" id="comment" cols="30" rows="10" placeholder="your bio" required></textarea>
+    
+        <br><br>
+            <input type="submit" value="submit">
+    
+    <br><br>
+   
+    <a href="about.html">about page</a>
+    
+    </form> 
+</div>
+</body>
+</html>
